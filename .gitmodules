@@ -1,6 +1,6 @@
 [submodule "harbor"]
 	path = harbor
 	url = https://github.com/matsuyoshi30/harbor.git
-[submodule "themes/harbor"]
-	path = themes/harbor
-	url = https://github.com/matsuyoshi30/harbor.git
+[submodule "themes/hugo-future-imperfect"]
+	path = themes/hugo-future-imperfect
+	url = https://github.com/jpescador/hugo-future-imperfect.git
