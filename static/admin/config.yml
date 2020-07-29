@@ -1,0 +1,44 @@
+publish_mode: editorial_workflow
+backend:
+  name: github
+  repo: stepugnetti/netlify-poc
+  branch: master
+#local_backend: true
+media_folder: static/images/uploads
+media_library: {name: 'uploadcare'} 
+collections:
+  - label: Blog
+    name: posts
+    folder: content/blog
+    create: true
+    fields:
+      - name: author
+        label: Author
+        widget: string
+      - name: categories
+        label: Categories
+        widget: select
+        multiple: true
+        options: ["Category 1", "Category 2"]
+        required: false
+      - name: date
+        label: Date
+        widget: date
+        format: "YYYY-MM-DD"
+      - name: description
+        label: Description
+        required: false
+        widget: string
+#featured = ""
+#featuredalt = ""
+#featuredpath = ""
+#linktitle = ""
+      - name: title
+        label: Title
+        widget: string
+      - name: type
+        widget: hidden
+        default: "post"
+      - name: body
+        label: Text
+        widget: markdown
