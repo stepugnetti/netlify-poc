@@ -1,6 +1,6 @@
 publish_mode: editorial_workflow
 backend:
-  name: github
+  name: git-gateway
   repo: stepugnetti/netlify-poc
   branch: master
 #local_backend: true
