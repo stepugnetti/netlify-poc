@@ -15,6 +15,9 @@ collections:
       - name: author
         label: Author
         widget: string
+      - label: Invisible
+        name: group
+        widget: identity
       - name: categories
         label: Categories
         widget: select
