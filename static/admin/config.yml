@@ -10,6 +10,7 @@ collections:
   - label: Blog
     name: posts
     folder: content/blog
+    format: yaml-frontmatter
     create: true
     fields:
       - name: author
